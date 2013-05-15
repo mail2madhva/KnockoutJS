@@ -10,7 +10,8 @@
 <body >
 
 <!-- Name is bound to a Strong html element here -->
-<input type="text" data-bind="value: myName"/>
+<!-- Notice valueUpdate: 'afterkeydown' this wil update the ViewModel as soon a key down is done :) no need to move your mouse away from the input -->>
+<input type="text" data-bind="value: myName, valueUpdate: 'afterkeydown'"/>
 
 </body>
 </html>
