@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Binding Example</title>
+	<!-- Load the scripts here - notice defer="defer" for examplebinding.js , thats required to make it load after all things gets loaded-->
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js"></script>
+	<script type="text/javascript" src="examplebinding.js" defer="defer"></script>
+</head>
+<body >
+
+<!-- Name is bound to a Strong html element here -->
+<p>First name: <strong data-bind="text: myName"></strong></p>
+
+</body>
+</html>
